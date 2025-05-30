@@ -27,21 +27,3 @@ variable "timezone" {
   type        = string
   default     = "Etc/UTC"
 }
-
-variable "config_path" {
-  description = "Host path for Medusa config"
-  type        = string
-  default     = "/path/to/medusa/config"
-}
-
-variable "downloads_path" {
-  description = "Host path for downloads"
-  type        = string
-  default     = "/path/to/downloads"
-}
-
-variable "tv_path" {
-  description = "Host path for TV shows"
-  type        = string
-  default     = "/path/to/tv"
-}
